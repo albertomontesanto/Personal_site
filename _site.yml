@@ -1,0 +1,15 @@
+name: "alberto-website"
+output_dir: "."
+navbar:
+  title: "ALBERTO Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"     ##### the new
+      href: projects.html  ##### stuff
+    - text: "About Me"
+      href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
