@@ -1,7 +1,7 @@
-name: "nicks-website"
+name: "alberto-website"
 output_dir: "."
 navbar:
-  title: "Nicks Website"
+  title: "ALBERTO Website"
   left:
     - text: "Home"
       href: index.html
@@ -11,4 +11,4 @@ navbar:
       href: about.html
 output:
   html_document:
-  theme: jekyll-theme-slate
+    theme: flatly
